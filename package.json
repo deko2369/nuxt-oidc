@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-oidc",
+  "version": "0.0.1",
+  "description": "OpenID Connect authentication support for Nuxt.js",
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "openid-client": "^4.4.0",
+    "passport": "^0.4.1"
+  }
+}

@@ -16,6 +16,7 @@ $ npm install nuxt-oidc
 ```json5
 // nuxt.config.js
 {
+  modules: ['nuxt-oidc'],
   oidc: {
     issuer: '<Your issuer>',
     clientId: '<Client ID>',

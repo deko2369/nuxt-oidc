@@ -7,7 +7,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt sample"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,5 +16,9 @@
     "express-session": "^1.17.1",
     "openid-client": "^4.4.0",
     "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
   }
 }

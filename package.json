@@ -2,6 +2,7 @@
   "name": "nuxt-oidc",
   "version": "0.0.1",
   "description": "OpenID Connect authentication support for Nuxt.js",
+  "repository": "deko2369/nuxt-oidc",
   "main": "lib/module.js",
   "files": [
     "lib"

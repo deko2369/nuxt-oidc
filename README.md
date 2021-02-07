@@ -28,24 +28,22 @@ $ npm install nuxt-oidc
     scope: [
       'email',
       'profile',
-      'address'
+      'address',
     ],
     // express-session configuration
     session: {
       secret: '<secret>',
       cookie: {},
       resave: false,
-      saveUninitialized: false
-    }
+      saveUninitialized: false,
+    },
   },
-  ...
 }
 ```
 
 ### Use 'oidc' middleware
 
 Use `oidc` middleware for pages that require authentication.
-When the middleware is enabled and user is not logged in, user will be redirected to login page (`/oidc/login`).
 
 ```vue
 <script>

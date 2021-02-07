@@ -16,7 +16,10 @@ $ npm install nuxt-oidc
 ```json5
 // nuxt.config.js
 {
-  modules: ['nuxt-oidc'],
+  modules: [
+    '@nuxtjs/axios',
+    'nuxt-oidc',
+  ],
   oidc: {
     issuer: '<Your issuer>',
     clientId: '<Client ID>',
@@ -51,6 +54,8 @@ export default {
 }
 </script>
 ```
+
+See [sample](./sample) directory for more details.
 
 
 ## License

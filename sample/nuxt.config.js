@@ -11,14 +11,14 @@ export default {
     scope: [
       'email',
       'profile',
-      'address'
+      'address',
     ],
     // express-session configuration
     session: {
       secret: process.env.OIDC_SESSION_SECRET,
       cookie: {},
       resave: false,
-      saveUninitialized: false
-    }
+      saveUninitialized: false,
+    },
   },
 }

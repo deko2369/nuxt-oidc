@@ -12,6 +12,8 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.0",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "openid-client": "^4.4.0",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue": "latest"
   }
 }

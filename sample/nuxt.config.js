@@ -1,6 +1,8 @@
 export default {
-  components: true,
-  modules: ['../lib/module'],
+  modules: [
+    '@nuxtjs/axios',
+    '../lib/module',
+  ],
   oidc: {
     issuer: process.env.OIDC_ISSUER,
     clientId: process.env.OIDC_CLIENT_ID,
